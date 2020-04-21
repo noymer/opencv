@@ -275,7 +275,7 @@ static void rotatingCalipers( const Point2f* points, int n, int mode, float* out
             /* dotproduct */
             float width = dx * base_a + dy * base_b;
 
-            /* find vector left-right */
+            /* find vector bottom-top */
             dx = points[seq[2]].x - points[seq[0]].x;
             dy = points[seq[2]].y - points[seq[0]].y;
 
